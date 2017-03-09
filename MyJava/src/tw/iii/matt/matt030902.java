@@ -10,7 +10,7 @@ public class matt030902 {
 	    System.out.println(number1);
 	    do{
 	    	guess();
-	    }while(number1 !=guess());
+	    }while(number1 !=guess());  //只要不等於的話繼續做
 	    System.out.println("猜對了");
 	}
 	    static int guess(){
