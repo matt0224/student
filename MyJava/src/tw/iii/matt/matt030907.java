@@ -1,0 +1,21 @@
+package tw.iii.matt;
+
+import java.util.Scanner;
+public class matt030907 {
+
+	public static void main(String[] args) {
+		 int num1, num2, num3;
+	        Scanner scanner = new Scanner(System.in);
+	        
+	        System.out.println("請輸入三個數字(以空白鍵分開)：");
+	        num1 = scanner.nextInt();
+	        num2 = scanner.nextInt();
+	        num3 = scanner.nextInt();
+	        System.out.println("您輸入第一個數字為：" + num1 );
+	        System.out.println("您輸入第二個數字為：" + num2 );
+	        System.out.println("您輸入第三個數字為：" + num3 );
+//  Int num1,num2,num3;
+	     //Scanner scanner = new Scanner(system.in);
+	}
+
+}
