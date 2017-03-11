@@ -12,7 +12,7 @@ public class matt0311tapokerv1 {
 			  for(int j=0; j<i;j++){           //檢查前面是否跟I重複
 				  if (poker[j]==temp){
 					  isRepeat = true;
-					  break;
+					  break;        //這關如果沒過就是錯的 跳出
 				  }
 			  }
 			  if(!isRepeat){
