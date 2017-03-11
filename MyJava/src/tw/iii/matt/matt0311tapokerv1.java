@@ -15,7 +15,7 @@ public class matt0311tapokerv1 {
 					  break;        //這關如果沒過就是錯的 跳出
 				  }
 			  }
-			  if(!isRepeat){
+			  if(!isRepeat){                //沒有重複再輸出
 				  poker[i] =temp;
 				 System.out.println(poker[i]);
 			  }else{
